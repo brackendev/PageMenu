@@ -24,7 +24,7 @@ class TestTableViewController: UITableViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        print("\(self.title) page: viewWillAppear")
+        print("\(String(describing: self.title)) page: viewWillAppear")
     }
     
     override func viewDidAppear(_ animated: Bool) {
